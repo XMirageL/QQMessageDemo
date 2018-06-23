@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class ChatAdapter extends BaseAdapter {
 
-    //定义两个类别标志
+    //定义两个类别
     private static final int TYPE_OWN = 0;
     private static final int TYPE_FRIEND = 1;
     private Context mContext;
