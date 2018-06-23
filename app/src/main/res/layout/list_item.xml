@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_selector"
+    android:orientation="horizontal">
+
+    <!-- 定义一个用于显示头像的ImageView -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:baselineAlignBottom="true"/>
+
+    <!-- 定义一个竖直方向的LinearLayout,把QQ呢称与消息的文本框设置出来 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#1D1D1C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_userPpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#B4B4B9"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+    <!-- 消息发送时间 -->
+    <TextView
+        android:id="@+id/tv_speakTime"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#B4B4B9"
+        android:gravity="center_vertical"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp" />
+
+</LinearLayout>

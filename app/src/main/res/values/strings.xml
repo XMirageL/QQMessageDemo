@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QQMessageDemo</string>
+    <item name="Tag_OWN" type="id"></item>
+    <item name="Tag_FRIEND" type="id"></item>
+</resources>

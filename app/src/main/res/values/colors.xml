@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="list_item_c1">#fff</color>
+    <color name="list_item_c2">#9be6fd</color>
+    <color name="hui">#dadada</color>
+    <color name="blue">#ff12b7f5</color>
+    <color name="color_btn_send_pressed">#ff1ca7da</color>
+    <color name="pm_bg1">#ffffff</color>
+    <color name="pm_bg2">#dadada</color>
+    <color name="chat_bg">#f0f2f8</color>
+    <color name="black">#000</color>
+</resources>
